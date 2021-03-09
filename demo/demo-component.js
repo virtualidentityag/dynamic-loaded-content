@@ -1,4 +1,4 @@
-import { DynamicLoadedContent } from '/dist/index.js';
+import { DynamicLoadedContent } from 'https://unpkg.com/@virtualidentity/dynamic-loaded-content@1.0.0/dist/index.js';
 
 (async () => {
   class MyDemoApplication extends DynamicLoadedContent {
