@@ -8,9 +8,15 @@
     "build": "tsc",
     "test": "jest"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/virtualidentityag/dynamic-loaded-content.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "author": "Virtual Identity AG",
   "license": "ISC",
