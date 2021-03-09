@@ -1,0 +1,27 @@
+{
+  "name": "@virtualidentity/dynamic-loaded-content",
+  "version": "1.0.0",
+  "description": "A simple base component to load content dynamically.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virtualidentityag/dynamic-loaded-content.git"
+  },
+  "author": "Virtual Identity AG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virtualidentityag/dynamic-loaded-content/issues"
+  },
+  "homepage": "https://github.com/virtualidentityag/dynamic-loaded-content#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.3",
+    "typescript": "^4.2.3"
+  }
+}
