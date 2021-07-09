@@ -1,4 +1,4 @@
-import { DynamicLoadedContent } from 'https://unpkg.com/@virtualidentity/dynamic-loaded-content@1.0.0/dist/index.js';
+import { DynamicLoadedContent } from 'https://unpkg.com/@virtualidentity/dynamic-loaded-content@1.1.0/dist/index.js';
 
 (async () => {
   class MyDemoApplication extends DynamicLoadedContent {
@@ -6,10 +6,13 @@ import { DynamicLoadedContent } from 'https://unpkg.com/@virtualidentity/dynamic
     imports = [
       '/react@17/umd/react.development.js',
       '/react-dom@17/umd/react-dom.development.js',
+      'https://global-resources.dev.fe.union-investment.de/develop/styles/union-investment.css',
     ]
 
     // Initial app HTML
     html = '<div id="like_button_container"></div>';
+
+    useImports = false;
 
     componentDidLoad() {
       // Do anything to initialize the app
